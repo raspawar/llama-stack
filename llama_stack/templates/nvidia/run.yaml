@@ -56,6 +56,10 @@ providers:
   - provider_id: localfs
     provider_type: inline::localfs
     config: {}
+  datasets:
+  - provider_id: nvidia
+    provider_type: remote::nvidia
+    config: {}
   scoring:
   - provider_id: basic
     provider_type: inline::basic

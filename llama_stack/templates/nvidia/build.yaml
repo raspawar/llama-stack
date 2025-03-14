@@ -17,6 +17,8 @@ distribution_spec:
     datasetio:
     - remote::huggingface
     - inline::localfs
+    datasets:
+    - remote::nvidia
     scoring:
     - inline::basic
     - inline::llm-as-judge
